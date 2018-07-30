@@ -1,0 +1,10 @@
+framework module Quinto {
+  umbrella header "Quinto.h"
+
+  export *
+  module * { export * }
+}
+
+module Quinto.Swift {
+    header "Quinto-Swift.h"
+}
